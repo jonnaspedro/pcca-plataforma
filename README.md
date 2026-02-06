@@ -1,4 +1,4 @@
-# Comunica IF
+# Comunica IF – Plataforma de Compartilhamento de Conhecimento entre Alunos
 
 ## Descrição
 
