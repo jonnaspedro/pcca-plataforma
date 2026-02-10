@@ -1,51 +1,51 @@
-# Comunica IF – Plataforma de Compartilhamento de Conhecimento entre Alunos
+# PCCA – Plataforma de Compartilhamento de Conhecimento entre Alunos
 
 ## Descrição
 
-O projeto Comunica IF propõe o desenvolvimento de uma plataforma digital voltada ao compartilhamento de conhecimento entre alunos. Atualmente, grande parte das informações úteis para os estudos é transmitida de forma informal, como por meio de aplicativos de mensagens e conversas presenciais, o que dificulta sua organização e recuperação posterior.
+O **PCCA – Plataforma de Compartilhamento de Conhecimento entre Alunos** é um projeto que propõe o desenvolvimento de uma plataforma digital colaborativa voltada à troca de conhecimentos entre estudantes. Atualmente, muitas informações relevantes para o aprendizado — como resumos, dicas de estudo, explicações e esclarecimento de dúvidas — são compartilhadas de forma informal, principalmente por meio de aplicativos de mensagens e conversas presenciais, o que dificulta sua organização, armazenamento e recuperação.
 
-A plataforma tem como objetivo centralizar esses conteúdos em um único ambiente, permitindo que os próprios estudantes contribuam com materiais, dicas e esclareçam dúvidas de forma colaborativa.
+A proposta do PCCA é centralizar esses conteúdos em um único ambiente digital, permitindo que os próprios alunos compartilhem conhecimentos de forma estruturada, organizada por disciplinas e temas, promovendo a colaboração e o fortalecimento do aprendizado coletivo.
 
 ## Objetivo Geral
 
-Desenvolver uma plataforma que facilite a troca de conhecimento entre alunos, promovendo a colaboração, a organização dos conteúdos e o acesso rápido à informação acadêmica.
+Desenvolver uma plataforma digital que facilite o compartilhamento de conhecimento entre alunos, promovendo a colaboração, a organização dos conteúdos acadêmicos e o acesso rápido e eficiente à informação.
 
 ## Objetivos Específicos
 
-- Permitir o cadastro de conteúdos organizados por disciplina e assunto;
+- Permitir o cadastro e a organização de conteúdos por disciplina e assunto;
 - Disponibilizar um sistema de perguntas e respostas entre os alunos;
-- Implementar um mecanismo de busca por temas específicos;
-- Incentivar o aprendizado colaborativo;
-- Reduzir a perda de informações importantes compartilhadas informalmente.
+- Implementar um mecanismo de busca para facilitar a localização de conteúdos específicos;
+- Incentivar o aprendizado colaborativo entre estudantes;
+- Reduzir a perda de informações importantes que atualmente são compartilhadas de forma informal.
 
 ## Problema
 
-O conhecimento adquirido pelos alunos frequentemente se encontra disperso em diferentes meios, como aplicativos de mensagens, redes sociais e conversas presenciais. Essa dispersão dificulta o acesso posterior às informações, prejudicando o processo de aprendizagem coletiva.
+O conhecimento produzido e compartilhado pelos alunos encontra-se disperso em diferentes meios, como aplicativos de mensagens, redes sociais e interações presenciais. Essa falta de centralização dificulta o acesso posterior às informações, prejudicando a organização do conteúdo e limitando o aproveitamento do conhecimento coletivo.
 
 ## Solução Proposta
 
-A criação de uma plataforma centralizada onde os alunos possam publicar conteúdos, responder dúvidas e pesquisar informações relacionadas às disciplinas escolares ou universitárias.
+A criação do **PCCA**, uma plataforma digital centralizada onde os alunos possam publicar conteúdos acadêmicos, responder dúvidas, interagir entre si e pesquisar informações relacionadas às disciplinas, de forma organizada e acessível.
 
 ## Funcionalidades Previstas
 
-- Cadastro de conteúdos por disciplina (resumos, dicas e links);
-- Sistema de perguntas e respostas;
-- Busca por assunto;
+- Cadastro de conteúdos por disciplina (resumos, dicas, links e materiais de apoio);
+- Sistema de perguntas e respostas entre alunos;
+- Ferramenta de busca por assunto ou palavra-chave;
 - Organização dos conteúdos por categorias;
 - Interação entre usuários por meio de comentários e respostas.
 
 ## Público-Alvo
 
-Alunos do ensino médio e superior que desejam compartilhar conhecimentos, organizar conteúdos de estudo e colaborar entre si.
+Alunos do ensino médio e do ensino superior interessados em compartilhar conhecimentos, organizar conteúdos de estudo e colaborar no processo de aprendizagem.
 
 ## Benefícios Esperados
 
-- Maior organização do conhecimento coletivo;
-- Estímulo à cooperação entre alunos;
-- Facilidade no acesso à informação;
-- Apoio ao processo de aprendizagem;
-- Criação de uma base de conhecimento colaborativa.
+- Maior organização do conhecimento compartilhado pelos alunos;
+- Estímulo à cooperação e ao aprendizado colaborativo;
+- Facilidade no acesso à informação acadêmica;
+- Apoio ao processo de ensino e aprendizagem;
+- Criação de uma base de conhecimento coletiva e contínua.
 
 ## Considerações Finais
 
-O Comunica IF visa contribuir para a melhoria do ambiente educacional, promovendo um espaço digital onde o conhecimento possa ser construído de forma coletiva e acessível a todos os participantes.
+O **PCCA – Plataforma de Compartilhamento de Conhecimento entre Alunos** visa contribuir para a melhoria do ambiente educacional, oferecendo um espaço digital colaborativo onde o conhecimento possa ser construído, organizado e compartilhado de forma acessível, promovendo a participação ativa dos estudantes no processo de aprendizagem.
