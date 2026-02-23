@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCCA - Painel do Aluno</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="top-bar">
+    <div class="top-container">
+        <div class="brand">
+            <img src="images/logo.png" alt="Instituto Federal Pernambuco">
+            <div class="brand-text">
+                <h1>Plataforma de Compartilhamento de Conhecimento</h1>
+                <span>Instituto Federal de Pernambuco</span>
+            </div>
+        </div>
+
+        <!-- Botão hambúrguer animado -->
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="menu" id="menu">
+            <a href="index.html">Início</a>
+            <a href="disciplinas.html">Disciplinas</a>
+            <a href="perguntas.html">Perguntas</a>
+            <a href="painel.html">Painel do Aluno</a>
+        </nav>
+
+        <!-- Foto do Usuário -->
+        <div class="user-photo-header">
+            <img id="fotoHeader" src="images/user.png" alt="Foto do Usuário">
+        </div>
+    </div>
+</header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Painel do Aluno</h2>
+            <p>Gerencie seu perfil</p>
+        </div>
+    </section>
+
+    <!-- CONTEÚDO -->
+    <main class="layout">
+        <section class="content">
+
+            <!-- PERFIL -->
+            <div class="post-card">
+                <h3>Meu Perfil</h3>
+
+                <div class="perfil-container">
+                    <img id="previewFoto" src="images/user.png"
+                        width="120" height="120"
+                        style="border-radius: 50%;">
+                </div>
+
+                <input type="text" id="nome" placeholder="Nome completo">
+                <input type="text" id="turma" placeholder="Turma">
+                <input type="text" id="curso" placeholder="Curso">
+                <input type="file" id="foto">
+
+                <div class="botoes-perfil">
+    <button onclick="salvarPerfil()">Salvar Perfil</button>
+
+    <button onclick="removerFoto()" class="btn-danger">
+        Remover Foto
+    </button>
+</div>
+
+            </div>
+
+            <!-- RECUPERAR SENHA -->
+            <div class="post-card">
+                <h3>Recuperar Senha</h3>
+                <input type="email" id="emailRecuperacao" placeholder="Digite seu email">
+                <button onclick="recuperarSenha()">Enviar recuperação</button>
+            </div>
+
+            <!-- SAIR -->
+            <div class="post-card">
+                <h3>Conta</h3>
+                <button onclick="sairConta()" class="btn-danger">
+                    Sair da Conta
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        Instituto Federal de Pernambuco - Curso Técnico em Desenvolvimento de Sistemas
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

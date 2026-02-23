@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCCA - Perguntas</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top-bar">
+    <div class="top-container">
+        <div class="brand">
+            <img src="images/logo.png" alt="Instituto Federal Pernambuco" class="brand-logo">
+            <div class="brand-text">
+                <h1>Plataforma de Compartilhamento de Conhecimento</h1>
+                <span>Instituto Federal de Pernambuco</span>
+            </div>
+        </div>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="menu" id="menu">
+            <a href="index.html">Início</a>
+            <a href="disciplinas.html">Disciplinas</a>
+            <a href="perguntas.html" class="active">Perguntas</a>
+            <a href="painel.html">Painel do Aluno</a>
+        </nav>
+        <div class="user-photo-header">
+            <img id="fotoHeader" src="images/user.png" alt="Foto do Usuário">
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h2>Área de Perguntas</h2>
+        <p>Tire dúvidas e ajude seus colegas</p>
+    </div>
+</section>
+
+<main class="layout">
+    <section class="content">
+
+        <!-- Formulário de nova pergunta -->
+        <article class="post-area">
+    <h3>Nova Pergunta</h3>
+
+    <form id="formPergunta" onsubmit="event.preventDefault(); publicarPergunta();">
+
+        <!-- Nome do usuário -->
+        <div class="form-group">
+            <label for="nome">Seu nome</label>
+            <input type="text" id="nome" placeholder="Seu nome" required>
+        </div>
+
+        <!-- Título da pergunta -->
+        <div class="form-group">
+            <label for="titulo">Título da pergunta</label>
+            <input type="text" id="titulo" placeholder="Título da pergunta" required>
+        </div>
+
+        <!-- Disciplina -->
+        <div class="form-group">
+            <label for="disciplina">Disciplina</label>
+            <input type="text" id="disciplina" placeholder="Nome da Disciplina" required>
+        </div>
+
+        <!-- Texto da dúvida -->
+        <div class="form-group">
+            <label for="texto">Digite sua dúvida</label>
+            <textarea id="texto" placeholder="Digite sua dúvida aqui" rows="5" required></textarea>
+        </div>
+
+        <!-- Botão de publicar -->
+        <div class="form-group">
+            <button type="submit">Publicar Pergunta</button>
+        </div>
+
+    </form>
+</article>
+
+
+        <!-- Minhas perguntas -->
+        <section class="user-settings">
+            <h3>Minhas Perguntas</h3>
+            <div class="filter-questions">
+                <label for="filtroDisciplina">Filtrar por disciplina:</label>
+                <select id="filtroDisciplina" onchange="filtrarMinhasPerguntas()">
+                    <option value="">Todas</option>
+                </select>
+            </div>
+            <div class="minhas-perguntas" id="minhasPerguntas"></div>
+        </section>
+
+    </section>
+
+    <!-- Cadastro opcional de conteúdos por disciplina -->
+<section class="user-settings">
+    <h3>Adicionar Conteúdo por Disciplina (Opcional)</h3>
+
+    <div class="form-group">
+        <label for="disciplinaConteudo">Disciplina</label>
+        <select id="filtroDisciplina">
+            <option value="">Selecione a disciplina</option>
+            <option value="Artes 1">Artes 1</option>
+            <option value="Biologia 1">Biologia 1</option>
+            <option value="Ciência, Tecnologia e Sociedade">Ciência, Tecnologia e Sociedade</option>
+            <option value="Cidadania e Ética 1">Cidadania e Ética 1</option>
+            <option value="Ferramentas de Escritório e de Acesso Remoto">Ferramentas de Escritório e de Acesso Remoto</option>
+            <option value="Filosofia 1">Filosofia 1</option>
+            <option value="Física 1">Física 1</option>
+            <option value="Geografia 1">Geografia 1</option>
+            <option value="História 1">História 1</option>
+            <option value="Informática e Redes de Computadores">Informática e Redes de Computadores</option>
+            <option value="Língua Inglesa 1">Língua Inglesa 1</option>
+            <option value="Língua Portuguesa 1">Língua Portuguesa 1</option>
+            <option value="Matemática 1">Matemática 1</option>
+            <option value="Programação 1">Programação 1</option>
+            <option value="Projeto e Prática 1">Projeto e Prática 1</option>
+            <option value="Química 1">Química 1</option>
+            <option value="Artes 2">Artes 2</option>
+            <option value="Banco de Dados">Banco de Dados</option>
+            <option value="Biologia 2">Biologia 2</option>
+            <option value="Desenvolvimento Web">Desenvolvimento Web</option>
+            <option value="Educação Física 2">Educação Física 2</option>
+            <option value="Física 2">Física 2</option>
+            <option value="Geografia 2">Geografia 2</option>
+            <option value="História 2">História 2</option>
+            <option value="Inglês Instrumental">Inglês Instrumental</option>
+            <option value="Língua Inglesa 2">Língua Inglesa 2</option>
+            <option value="Língua Portuguesa 2">Língua Portuguesa 2</option>
+            <option value="Matemática 2">Matemática 2</option>
+            <option value="Programação 2">Programação 2</option>
+            <option value="Projeto e Prática 2">Projeto e Prática 2</option>
+            <option value="Projetos em Ciências da Natureza">Projetos em Ciências da Natureza</option>
+            <option value="Projetos Inovadores e Divulgação Científica">Projetos Inovadores e Divulgação Científica</option>
+            <option value="LABORATÓRIO POLITÉCNICO DE PESQUISA E EXTENSÃO">LABORATÓRIO POLITÉCNICO DE PESQUISA E EXTENSÃO</option>
+            <option value="Química 2">Química 2</option>
+            <option value="Segurança, Meio Ambiente e Saúde">Segurança, Meio Ambiente e Saúde</option>
+            <option value="Sociologia">Sociologia</option>
+            <option value="Empreendedorismo, Inovação e Startups">Empreendedorismo, Inovação e Startups</option>
+            <option value="Física 3">Física 3</option>
+            <option value="Geografia 3">Geografia 3</option>
+            <option value="História 3">História 3</option>
+            <option value="Língua Portuguesa 3">Língua Portuguesa 3</option>
+            <option value="Matemática 3">Matemática 3</option>
+            <option value="Programação 3">Programação 3</option>
+            <option value="Projeto e Prática 3">Projeto e Prática 3</option>
+            <option value="Projetos em Inclusão e Direitos Humanos">Projetos em Inclusão e Direitos Humanos</option>
+            <option value="Química 3">Química 3</option>
+            <option value="Relação Étnico e Direitos Humanos">Relação Étnico e Direitos Humanos</option>
+            <option value="Testes e Software">Testes e Software</option>
+        </select>
+
+    </div>
+
+    <div class="form-group">
+        <label for="tipoConteudo">Tipo de Conteúdo</label>
+        <select id="tipoConteudo">
+            <option value="resumo">Resumo</option>
+            <option value="dica">Dica</option>
+            <option value="link">Link</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="tituloConteudo">Título do Conteúdo</label>
+        <input type="text" id="tituloConteudo" placeholder="Título do conteúdo">
+    </div>
+
+    <div class="form-group">
+        <label for="descricaoConteudo">Descrição / Link</label>
+        <textarea id="descricaoConteudo" placeholder="Digite a descrição ou cole o link"></textarea>
+    </div>
+
+    <div class="form-group">
+        <button onclick="adicionarConteudo()">Adicionar Conteúdo</button>
+    </div>
+
+    <h4>Conteúdos Cadastrados</h4>
+    <div id="conteudosDisciplina"></div>
+</section>
+
+</main>
+
+<footer class="footer">
+    Instituto Federal de Pernambuco - Curso Técnico em Desenvolvimento de Sistemas
+</footer>
+
+<script src="script.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const loginSalvo = localStorage.getItem("loginAluno");
+
+    const areaPergunta = document.getElementById("formPergunta");
+    const areaConteudo = document.getElementById("conteudosDisciplina")?.parentElement; // pega a seção do conteúdo
+
+    if (!loginSalvo) {
+        // Bloqueia a área de perguntas
+        if (areaPergunta) {
+            areaPergunta.innerHTML = `
+                <p style="color:red; font-weight:bold;">
+                    Você precisa estar logado para publicar perguntas.
+                    <a href="login.html">Clique aqui para entrar</a>
+                </p>
+            `;
+        }
+        // Bloqueia a área de conteúdos
+        if (areaConteudo) {
+            areaConteudo.innerHTML = `
+                <p style="color:red; font-weight:bold;">
+                    Você precisa estar logado para adicionar conteúdos.
+                    <a href="login.html">Clique aqui para entrar</a>
+                </p>
+            `;
+        }
+        return;
+    }
+
+    const login = JSON.parse(loginSalvo);
+    if (!login.logado) {
+        if (areaPergunta) {
+            areaPergunta.innerHTML = `
+                <p style="color:red; font-weight:bold;">
+                    Você precisa estar logado para publicar perguntas.
+                    <a href="login.html">Clique aqui para entrar</a>
+                </p>
+            `;
+        }
+        if (areaConteudo) {
+            areaConteudo.innerHTML = `
+                <p style="color:red; font-weight:bold;">
+                    Você precisa estar logado para adicionar conteúdos.
+                    <a href="login.html">Clique aqui para entrar</a>
+                </p>
+            `;
+        }
+        return;
+    }
+
+    // Preenche o nome automaticamente no formulário
+    const nomeInput = document.getElementById("nome");
+    if (nomeInput) {
+        nomeInput.value = login.usuario || "";
+    }
+});
+</script>
+
+</body>
+</html>
