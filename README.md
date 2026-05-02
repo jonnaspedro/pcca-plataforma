@@ -1,51 +1,232 @@
-# PCCA – Plataforma de Compartilhamento de Conhecimento entre Alunos
+# 🎓 PCCA – Plataforma de Compartilhamento de Conhecimento entre Alunos
 
-## Descrição
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Frontend](https://img.shields.io/badge/frontend-HTML5%20%7C%20CSS3%20%7C%20JavaScript-blue)
+![Backend](https://img.shields.io/badge/backend-Firebase-orange)
+![Database](https://img.shields.io/badge/database-Firestore-green)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-O **PCCA – Plataforma de Compartilhamento de Conhecimento entre Alunos** é um projeto que propõe o desenvolvimento de uma plataforma digital colaborativa voltada à troca de conhecimentos entre estudantes. Atualmente, muitas informações relevantes para o aprendizado — como resumos, dicas de estudo, explicações e esclarecimento de dúvidas — são compartilhadas de forma informal, principalmente por meio de aplicativos de mensagens e conversas presenciais, o que dificulta sua organização, armazenamento e recuperação.
+---
 
-A proposta do PCCA é centralizar esses conteúdos em um único ambiente digital, permitindo que os próprios alunos compartilhem conhecimentos de forma estruturada, organizada por disciplinas e temas, promovendo a colaboração e o fortalecimento do aprendizado coletivo.
+## 📌 Sobre o Projeto
 
-## Objetivo Geral
+O **PCCA – Plataforma de Compartilhamento de Conhecimento entre Alunos** é uma plataforma digital colaborativa criada para facilitar a troca de conhecimentos entre estudantes.
 
-Desenvolver uma plataforma digital que facilite o compartilhamento de conhecimento entre alunos, promovendo a colaboração, a organização dos conteúdos acadêmicos e o acesso rápido e eficiente à informação.
+Atualmente, muitas informações importantes para o aprendizado — como resumos, dicas, explicações, materiais de apoio e dúvidas resolvidas — são compartilhadas de forma informal por aplicativos de mensagens ou conversas presenciais, dificultando sua organização, armazenamento e reutilização.
 
-## Objetivos Específicos
+O **PCCA** surge como solução para centralizar esse conhecimento em um ambiente moderno, acessível e organizado.
 
-- Permitir o cadastro e a organização de conteúdos por disciplina e assunto;
-- Disponibilizar um sistema de perguntas e respostas entre os alunos;
-- Implementar um mecanismo de busca para facilitar a localização de conteúdos específicos;
-- Incentivar o aprendizado colaborativo entre estudantes;
-- Reduzir a perda de informações importantes que atualmente são compartilhadas de forma informal.
+---
 
-## Problema
+## 🎯 Objetivo Geral
 
-O conhecimento produzido e compartilhado pelos alunos encontra-se disperso em diferentes meios, como aplicativos de mensagens, redes sociais e interações presenciais. Essa falta de centralização dificulta o acesso posterior às informações, prejudicando a organização do conteúdo e limitando o aproveitamento do conhecimento coletivo.
+Desenvolver uma plataforma digital que facilite o compartilhamento de conhecimento entre alunos, promovendo:
 
-## Solução Proposta
+- colaboração;
+- organização acadêmica;
+- acesso rápido à informação;
+- aprendizado coletivo.
 
-A criação do **PCCA**, uma plataforma digital centralizada onde os alunos possam publicar conteúdos acadêmicos, responder dúvidas, interagir entre si e pesquisar informações relacionadas às disciplinas, de forma organizada e acessível.
+---
 
-## Funcionalidades Previstas
+## ✅ Objetivos Específicos
 
-- Cadastro de conteúdos por disciplina (resumos, dicas, links e materiais de apoio);
-- Sistema de perguntas e respostas entre alunos;
-- Ferramenta de busca por assunto ou palavra-chave;
-- Organização dos conteúdos por categorias;
-- Interação entre usuários por meio de comentários e respostas.
+- Criar sistema de perguntas e respostas;
+- Implementar mecanismo de busca;
+- Incentivar o aprendizado colaborativo;
+- Evitar perda de conteúdos importantes;
 
-## Público-Alvo
+---
 
-Alunos do ensino médio e do ensino superior interessados em compartilhar conhecimentos, organizar conteúdos de estudo e colaborar no processo de aprendizagem.
+## ❗ Problema Identificado
 
-## Benefícios Esperados
+O conhecimento compartilhado entre alunos encontra-se disperso em diferentes meios, como:
 
-- Maior organização do conhecimento compartilhado pelos alunos;
-- Estímulo à cooperação e ao aprendizado colaborativo;
-- Facilidade no acesso à informação acadêmica;
-- Apoio ao processo de ensino e aprendizagem;
-- Criação de uma base de conhecimento coletiva e contínua.
+- grupos de mensagens;
+- redes sociais;
+- conversas presenciais;
+- anotações isoladas.
 
-## Considerações Finais
+Isso dificulta:
 
-O **PCCA – Plataforma de Compartilhamento de Conhecimento entre Alunos** visa contribuir para a melhoria do ambiente educacional, oferecendo um espaço digital colaborativo onde o conhecimento possa ser construído, organizado e compartilhado de forma acessível, promovendo a participação ativa dos estudantes no processo de aprendizagem.
+- acesso posterior às informações;
+- organização dos conteúdos;
+- reaproveitamento do conhecimento;
+- colaboração contínua.
+
+---
+
+## 💡 Solução Proposta
+
+Criar o **PCCA**, uma plataforma digital centralizada onde os alunos possam:
+
+- tirar dúvidas;
+- responder perguntas;
+- pesquisar informações;
+- colaborar entre si.
+
+---
+
+## 🚀 Funcionalidades do Sistema
+
+### 👤 Usuário
+
+- Cadastro
+- Login
+- Recuperação de senha
+- Perfil do usuário
+- Logout
+
+### 📚 Conteúdos
+
+- Publicação de resumos
+- Dicas de estudo
+- Links úteis
+- Materiais acadêmicos
+
+### ❓ Perguntas e Respostas
+
+- Criar perguntas
+- Responder dúvidas
+- Curtir publicações
+- Comentários
+
+### 🔍 Busca
+
+- Buscar por disciplina
+- Buscar por assunto
+- Buscar por palavras-chave
+
+### 🗂 Organização
+
+- Categorias
+- Disciplinas
+- Ordenação por data
+- Área personalizada
+
+---
+
+## 🎯 Público-Alvo
+
+- Alunos do ensino médio
+- Alunos do ensino técnico
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend / Cloud
+
+- Firebase Authentication
+- Firebase Firestore
+- Firebase Hosting
+
+---
+
+## 📁 Estrutura do Projeto
+
+```bash
+PCCA/
+│── assets/
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+│── pages/
+│   ├── index.html
+│   ├── login.html
+│   ├── cadastro.html
+│   ├── perguntas.html
+│   ├── disciplinas.html
+│   └── perfil.html
+│
+│── README.md
+```
+## 📈 Benefícios Esperados
+
+- Maior organização do conhecimento estudantil;
+- Aprendizado colaborativo;
+- Facilidade no acesso à informação;
+- Comunidade acadêmica ativa;
+- Base de conhecimento contínua.
+
+---
+
+## 📌 Roadmap Futuro
+
+- [ ] Chat entre alunos    
+- [ ] Aplicativo mobile   
+
+---
+
+## 📄 Documentação do Sistema
+
+> Espaço reservado para documentação técnica completa.
+
+### Backend
+
+Em desenvolvimento.
+
+### Banco de Dados
+
+Em desenvolvimento.
+
+### APIs / Integrações
+
+Em desenvolvimento.
+
+### Fluxo do Sistema
+
+Em desenvolvimento.
+
+### Arquitetura
+
+Em desenvolvimento.
+
+---
+
+## 🔒 Política de Privacidade
+
+> Espaço reservado para política de privacidade e termos de uso.
+
+### Coleta de Dados
+
+Em desenvolvimento.
+
+### Uso das Informações
+
+Em desenvolvimento.
+
+### Segurança
+
+Em desenvolvimento.
+
+### Direitos do Usuário
+
+Em desenvolvimento.
+
+### Cookies e Sessões
+
+Em desenvolvimento.
+
+## 👨‍💻 Autor
+
+Projeto desenvolvido por **Jonnas Pedro**.
+
+---
+
+## 📜 Licença
+
+Este projeto está sob licença **MIT**.
+
+---
+
+## ⭐ Considerações Finais
+
+O **PCCA** busca transformar a forma como alunos compartilham conhecimento, criando um ambiente colaborativo, organizado e moderno para fortalecer a educação.
